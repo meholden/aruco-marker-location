@@ -32,7 +32,7 @@ for i in range(1, nx*ny+1):
 plt.show()
 
 fig2=plt.figure()
-img = aruco.drawMarker(aruco_dict,1, 700)
+img = aruco.drawMarker(aruco_dict,2, 700)
 plt.imshow(img, cmap = mpl.cm.gray, interpolation = "nearest")
 plt.axis("off")
 plt.savefig("marker.pdf")    
