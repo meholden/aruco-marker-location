@@ -27,8 +27,8 @@ board = aruco.GridBoard_create(
 rvecs, tvecs = None, None
 
 #cam = cv2.VideoCapture('20191016_141102.mp4')
-#cam = cv2.VideoCapture(0)
-cam = cv2.VideoCapture('20191017_100011.mp4')
+cam = cv2.VideoCapture(0)
+#cam = cv2.VideoCapture('20191017_100011.mp4')
 
 pos = []
 
